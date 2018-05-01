@@ -14,7 +14,6 @@
  */
 
 get_header(); ?>
-
 <div class="main-grid">
 	<main class="main-content">
 	<?php if ( have_posts() ) : ?>
@@ -26,7 +25,6 @@ get_header(); ?>
 
 		<?php else : ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
 		<?php endif; // End have_posts() check. ?>
 
 		<?php /* Display navigation to next/previous pages when applicable */ ?>
@@ -42,7 +40,7 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</main>
-	<?php get_sidebar(); ?>
+	<?php #get_sidebar(); ?>
 
 </div>
 

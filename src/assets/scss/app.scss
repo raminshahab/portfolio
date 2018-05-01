@@ -1,6 +1,5 @@
 @charset 'utf-8';
 
-
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -72,6 +71,7 @@
 
 // Components
 @import "components/buttons";
+@import "components/flipcustom";
 @import "components/cards";
 @import "components/featured-image";
 @import "components/dividers";
@@ -79,4 +79,5 @@
 
 // Templates
 @import "templates/front";
+@import "templates/blog";
 @import "templates/kitchen-sink";

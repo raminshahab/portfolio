@@ -1,3 +1,10 @@
+footer{
+  background-color: rgba(0,0,0,0.6);
+  padding: 0px 0 50px 0;
+  position: relative;
+  top: -108px;
+}
+
 .footer-container {
   @include xy-grid-container;
   border-top: 1px solid $medium-gray;
@@ -14,7 +21,27 @@
 
   ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
+  }
+}
+
+.info-box{
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  color: #8F9AA7;
+  font-family: 'Open Sans';
+}
+
+.highlight{
+  font-family: 'Open Sans';
+  color: #E31B6D;
+}
+
+.inline-list{
+  display: inline-flex;
+  li {
+      padding-right: 10px;
   }
 }
