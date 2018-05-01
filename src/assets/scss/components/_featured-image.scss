@@ -1,0 +1,33 @@
+.featured-hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: rem-calc(100);
+
+  @include breakpoint(medium) {
+    height: rem-calc(200);
+  }
+
+  @include breakpoint(xlarge) {
+    height: rem-calc(400);
+  }
+}
+
+.hero-image {
+  position: relative;
+  /* The image used */
+  background-image: url("../../../src/assets/images/unsplash.jpg");
+  /* Full height */
+  height: rem-calc(800);
+  z-index: -1;
+  top: -48px;
+
+  /* Position and center the image to scale nicely on all screens */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
