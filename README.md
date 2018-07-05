@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FoundationPress
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/olefredrik/foundationpress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -203,4 +202,3 @@ Pull requests are highly appreciated. Please follow these guidelines:
 4. Verify that all the Travis-CI build checks have passed
 =======
 # portfolio
->>>>>>> refs/remotes/origin/master
